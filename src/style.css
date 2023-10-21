@@ -1,0 +1,39 @@
+body {
+    padding: 0;
+    margin:0;
+}
+
+.grid {
+    text-align: center;
+}
+
+.container {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.row {
+    display: flex;
+    justify-content: center;    
+
+}
+
+.bloco1 {
+    width: 180px;
+    height: 180px;
+    background-color: #efefef;
+    padding: 10px;
+    margin: 10px;
+    font-size: 60px;
+    border-radius: 20px;
+    
+}
+
+
+.pos1 {
+    color: black;
+    font-weight: bold;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Jogo da Velha</title>
+  </head>
+  <body>
+    <div class="grid">
+      <h1>Jogo da Velha</h1>
+
+      <div>
+        <h1 id="vencedor"></h1>
+        <h1 id="mensagem"></h1>
+      </div>
+
+      <div class="container">
+        <div id="row1" class="row">
+          <div class="bloco1" id="A1" onclick="marcar(this);"></div>
+          <div class="bloco1" id="A2" onclick="marcar(this);"></div>
+          <div class="bloco1" id="A3" onclick="marcar(this);"></div>
+        </div>
+        <div id="row1" class="row">
+          <div class="bloco1" id="B1" onclick="marcar(this);"></div>
+          <div class="bloco1" id="B2" onclick="marcar(this);"></div>
+          <div class="bloco1" id="B3" onclick="marcar(this);"></div>
+        </div>
+        <div id="row1" class="row">
+          <div class="bloco1" id="C1" onclick="marcar(this);"></div>
+          <div class="bloco1" id="C2" onclick="marcar(this);"></div>
+          <div class="bloco1" id="C3" onclick="marcar(this);"></div>
+        </div>
+
+        <div id="row2" class="row"></div>
+      </div>
+    </div>
+    <script src="./src/index.js"></script>
+  </body>
+</html>
